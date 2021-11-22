@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05429ca0-9c85-4d7c-80bc-2ff9fececb3b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ILSVRC2015_all/labels.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/yolov3_class.names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/EdgeTile.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/EdgeTile.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluate/edge_tile_parse_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluate/edge_tile_parse_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3" beforeDir="false" afterPath="$PROJECT_DIR$/libs/YOLOv3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/assets/dog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/assets/giraffe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/assets/messi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/assets/traffic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/config/coco.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/config/create_custom_model.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/config/custom.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/config/yolov3-tiny.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/config/yolov3.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/data/coco.names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/data/custom/classes.names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/data/custom/images/train.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/data/custom/labels/train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/data/custom/train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/data/custom/valid.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/data/get_coco_dataset.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/data/samples/dog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/data/samples/eagle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/data/samples/field.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/data/samples/giraffe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/data/samples/herd_of_horses.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/data/samples/messi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/data/samples/person.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/data/samples/room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/data/samples/street.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/detect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/utils/augmentations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/utils/datasets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/utils/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/utils/parse_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/utils/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/YOLOv3/weights/download_weights.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2" beforeDir="false" afterPath="$PROJECT_DIR$/libs/detectron2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/.circleci/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/.clang-format" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/.flake8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/.github/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/.github/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/.github/Detectron2-Logo-Horz.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/.github/ISSUE_TEMPLATE/feature-request.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/.github/ISSUE_TEMPLATE/questions-help-support.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/.github/ISSUE_TEMPLATE/unexpected-problems-bugs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/.github/pull_request_template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/GETTING_STARTED.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/INSTALL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/MODEL_ZOO.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Base-RCNN-C4.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Base-RCNN-DilatedC5.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Base-RCNN-FPN.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Base-RetinaNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Detection/fast_rcnn_R_50_FPN_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Detection/faster_rcnn_R_101_C4_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Detection/faster_rcnn_R_101_DC5_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Detection/faster_rcnn_R_101_FPN_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Detection/faster_rcnn_R_50_C4_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Detection/faster_rcnn_R_50_C4_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Detection/faster_rcnn_R_50_DC5_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Detection/faster_rcnn_R_50_DC5_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Detection/faster_rcnn_R_50_FPN_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Detection/retinanet_R_101_FPN_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Detection/retinanet_R_50_FPN_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Detection/retinanet_R_50_FPN_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Detection/rpn_R_50_C4_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Detection/rpn_R_50_FPN_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_101_C4_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_101_DC5_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_101_FPN_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_C4_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_C4_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_DC5_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_DC5_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Keypoints/Base-Keypoint-RCNN-FPN.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Keypoints/keypoint_rcnn_R_101_FPN_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Keypoints/keypoint_rcnn_R_50_FPN_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Keypoints/keypoint_rcnn_R_50_FPN_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-Keypoints/keypoint_rcnn_X_101_32x8d_FPN_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-PanopticSegmentation/Base-Panoptic-FPN.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-PanopticSegmentation/panoptic_fpn_R_101_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-PanopticSegmentation/panoptic_fpn_R_50_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/COCO-PanopticSegmentation/panoptic_fpn_R_50_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Cityscapes/mask_rcnn_R_50_FPN.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Detectron1-Comparisons/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Detectron1-Comparisons/faster_rcnn_R_50_FPN_noaug_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Detectron1-Comparisons/keypoint_rcnn_R_50_FPN_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Detectron1-Comparisons/mask_rcnn_R_50_FPN_noaug_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/LVIS-InstanceSegmentation/mask_rcnn_R_101_FPN_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/LVIS-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/LVIS-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Misc/cascade_mask_rcnn_R_50_FPN_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Misc/cascade_mask_rcnn_R_50_FPN_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Misc/cascade_mask_rcnn_X_152_32x8d_FPN_IN5k_gn_dconv.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Misc/mask_rcnn_R_50_FPN_1x_cls_agnostic.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Misc/mask_rcnn_R_50_FPN_1x_dconv_c3-c5.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Misc/mask_rcnn_R_50_FPN_3x_dconv_c3-c5.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Misc/mask_rcnn_R_50_FPN_3x_gn.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Misc/mask_rcnn_R_50_FPN_3x_syncbn.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Misc/panoptic_fpn_R_101_dconv_cascade_gn_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Misc/scratch_mask_rcnn_R_50_FPN_3x_gn.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/Misc/semantic_R_50_FPN_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/PascalVOC-Detection/faster_rcnn_R_50_C4.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/PascalVOC-Detection/faster_rcnn_R_50_FPN.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/fast_rcnn_R_50_FPN_inference_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/fast_rcnn_R_50_FPN_instant_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/keypoint_rcnn_R_50_FPN_inference_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/keypoint_rcnn_R_50_FPN_instant_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/keypoint_rcnn_R_50_FPN_normalized_training_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/keypoint_rcnn_R_50_FPN_training_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/mask_rcnn_R_50_C4_GCN_instant_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/mask_rcnn_R_50_C4_GCV_instant_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/mask_rcnn_R_50_C4_inference_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/mask_rcnn_R_50_C4_instant_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/mask_rcnn_R_50_C4_training_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/mask_rcnn_R_50_DC5_inference_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/mask_rcnn_R_50_FPN_inference_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/mask_rcnn_R_50_FPN_instant_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/mask_rcnn_R_50_FPN_training_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/panoptic_fpn_R_50_inference_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/panoptic_fpn_R_50_instant_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/panoptic_fpn_R_50_training_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/retinanet_R_50_FPN_inference_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/retinanet_R_50_FPN_instant_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/rpn_R_50_FPN_inference_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/rpn_R_50_FPN_instant_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/semantic_R_50_FPN_inference_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/semantic_R_50_FPN_instant_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/configs/quick_schedules/semantic_R_50_FPN_training_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/datasets/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/datasets/prepare_cocofied_lvis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/datasets/prepare_for_tests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/datasets/prepare_panoptic_fpn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/demo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/demo/demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/demo/predictor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/checkpoint/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/checkpoint/c2_model_loading.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/checkpoint/catalog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/checkpoint/detection_checkpoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/config/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/config/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/config/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/config/defaults.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/catalog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/dataset_mapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/datasets/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/datasets/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/datasets/builtin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/datasets/builtin_meta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/datasets/cityscapes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/datasets/coco.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/datasets/lvis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/datasets/lvis_v0_5_categories.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/datasets/pascal_voc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/datasets/register_coco.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/detection_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/samplers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/samplers/distributed_sampler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/samplers/grouped_batch_sampler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/transforms/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/transforms/transform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/data/transforms/transform_gen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/engine/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/engine/defaults.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/engine/hooks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/engine/launch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/engine/train_loop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/evaluation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/evaluation/cityscapes_evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/evaluation/coco_evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/evaluation/evaluator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/evaluation/lvis_evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/evaluation/panoptic_evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/evaluation/pascal_voc_evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/evaluation/rotated_coco_evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/evaluation/sem_seg_evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/evaluation/testing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/export/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/export/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/export/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/export/c10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/export/caffe2_export.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/export/caffe2_inference.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/export/caffe2_modeling.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/export/patcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/export/shared.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/batch_norm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/ROIAlign/ROIAlign.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/ROIAlign/ROIAlign_cpu.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/ROIAlign/ROIAlign_cuda.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/ROIAlignRotated/ROIAlignRotated.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/ROIAlignRotated/ROIAlignRotated_cpu.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/ROIAlignRotated/ROIAlignRotated_cuda.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/box_iou_rotated/box_iou_rotated.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/box_iou_rotated/box_iou_rotated_cpu.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/box_iou_rotated/box_iou_rotated_cuda.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/box_iou_rotated/box_iou_rotated_utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/cuda_version.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/deformable/deform_conv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/deformable/deform_conv_cuda.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/deformable/deform_conv_cuda_kernel.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/nms_rotated/nms_rotated.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/nms_rotated/nms_rotated_cpu.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/nms_rotated/nms_rotated_cuda.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/csrc/vision.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/deform_conv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/mask_ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/nms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/roi_align.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/roi_align_rotated.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/rotated_boxes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/shape_spec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/layers/wrappers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/model_zoo/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/model_zoo/model_zoo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/anchor_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/backbone/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/backbone/backbone.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/backbone/build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/backbone/fpn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/backbone/resnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/box_regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/matcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/meta_arch/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/meta_arch/build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/meta_arch/panoptic_fpn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/meta_arch/rcnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/meta_arch/retinanet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/meta_arch/semantic_seg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/poolers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/postprocessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/proposal_generator/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/proposal_generator/build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/proposal_generator/proposal_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/proposal_generator/rpn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/proposal_generator/rpn_outputs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/proposal_generator/rrpn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/proposal_generator/rrpn_outputs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/roi_heads/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/roi_heads/box_head.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/roi_heads/cascade_rcnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/roi_heads/fast_rcnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/roi_heads/keypoint_head.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/roi_heads/mask_head.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/roi_heads/roi_heads.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/roi_heads/rotated_fast_rcnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/sampling.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/modeling/test_time_augmentation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/solver/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/solver/build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/solver/lr_scheduler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/structures/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/structures/boxes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/structures/image_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/structures/instances.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/structures/keypoints.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/structures/masks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/structures/rotated_boxes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/utils/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/utils/analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/utils/collect_env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/utils/colormap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/utils/comm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/utils/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/utils/events.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/utils/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/utils/memory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/utils/registry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/utils/serialize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/utils/video_visualizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/detectron2/utils/visualizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/dev/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/dev/linter.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/dev/packaging/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/dev/packaging/build_all_wheels.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/dev/packaging/build_wheel.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/dev/packaging/gen_wheel_index.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/dev/packaging/pkg_helpers.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/dev/parse_results.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/dev/run_inference_tests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/dev/run_instant_tests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docker/Dockerfile-circleci" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docker/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docker/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/modules/checkpoint.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/modules/config.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/modules/data.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/modules/engine.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/modules/evaluation.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/modules/export.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/modules/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/modules/layers.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/modules/model_zoo.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/modules/modeling.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/modules/solver.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/modules/structures.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/modules/utils.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/notes/benchmarks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/notes/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/notes/compatibility.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/notes/contributing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/notes/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/tutorials/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/tutorials/configs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/tutorials/data_loading.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/tutorials/datasets.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/tutorials/deployment.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/tutorials/evaluation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/tutorials/extend.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/tutorials/getting_started.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/tutorials/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/tutorials/install.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/tutorials/models.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/tutorials/training.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/docs/tutorials/write-models.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/apply_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/Base-DensePose-RCNN-FPN.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/densepose_rcnn_R_101_FPN_DL_WC1_s1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/densepose_rcnn_R_101_FPN_DL_WC2_s1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/densepose_rcnn_R_101_FPN_DL_s1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/densepose_rcnn_R_101_FPN_WC1_s1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/densepose_rcnn_R_101_FPN_WC2_s1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/densepose_rcnn_R_101_FPN_s1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/densepose_rcnn_R_101_FPN_s1x_legacy.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/densepose_rcnn_R_50_FPN_DL_WC1_s1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/densepose_rcnn_R_50_FPN_DL_WC2_s1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/densepose_rcnn_R_50_FPN_DL_s1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/densepose_rcnn_R_50_FPN_WC1_s1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/densepose_rcnn_R_50_FPN_WC2_s1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/densepose_rcnn_R_50_FPN_s1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/densepose_rcnn_R_50_FPN_s1x_legacy.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/quick_schedules/densepose_rcnn_R_50_FPN_DL_instant_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/quick_schedules/densepose_rcnn_R_50_FPN_WC1_instant_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/quick_schedules/densepose_rcnn_R_50_FPN_WC2_instant_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/quick_schedules/densepose_rcnn_R_50_FPN_inference_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/quick_schedules/densepose_rcnn_R_50_FPN_instant_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/configs/quick_schedules/densepose_rcnn_R_50_FPN_training_acc_test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/densepose/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/densepose/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/densepose/dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/densepose/dataset_mapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/densepose/densepose_coco_evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/densepose/densepose_head.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/densepose/evaluator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/densepose/roi_head.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/densepose/structures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/densepose/utils/dbhelper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/densepose/utils/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/densepose/vis/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/densepose/vis/bounding_box.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/densepose/vis/densepose.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/densepose/vis/extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/dev/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/dev/run_inference_tests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/dev/run_instant_tests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/doc/GETTING_STARTED.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/doc/MODEL_ZOO.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/doc/TOOL_APPLY_NET.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/doc/TOOL_QUERY_DB.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/doc/images/res_bbox_dp_contour.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/doc/images/res_bbox_dp_segm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/doc/images/res_bbox_dp_u.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/doc/images/res_bbox_dp_v.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/doc/images/vis_bbox_dp_i.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/doc/images/vis_bbox_dp_pts.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/doc/images/vis_bbox_dp_segm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/doc/images/vis_bbox_dp_u.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/doc/images/vis_bbox_dp_v.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/query_db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/tests/test_setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/tests/test_structures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/DensePose/train_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/PointRend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/PointRend/configs/InstanceSegmentation/Base-PointRend-RCNN-FPN.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/PointRend/configs/InstanceSegmentation/pointrend_rcnn_R_50_FPN_1x_cityscapes.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/PointRend/configs/InstanceSegmentation/pointrend_rcnn_R_50_FPN_1x_coco.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/PointRend/configs/InstanceSegmentation/pointrend_rcnn_R_50_FPN_3x_coco.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/PointRend/point_rend/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/PointRend/point_rend/coarse_mask_head.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/PointRend/point_rend/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/PointRend/point_rend/point_features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/PointRend/point_rend/point_head.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/PointRend/point_rend/roi_heads.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/PointRend/train_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TensorMask/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TensorMask/configs/Base-TensorMask.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TensorMask/configs/tensormask_R_50_FPN_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TensorMask/configs/tensormask_R_50_FPN_6x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TensorMask/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TensorMask/tensormask/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TensorMask/tensormask/arch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TensorMask/tensormask/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TensorMask/tensormask/layers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TensorMask/tensormask/layers/csrc/SwapAlign2Nat/SwapAlign2Nat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TensorMask/tensormask/layers/csrc/SwapAlign2Nat/SwapAlign2Nat_cuda.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TensorMask/tensormask/layers/csrc/vision.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TensorMask/tensormask/layers/swap_align2nat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TensorMask/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TensorMask/tests/test_swap_align2nat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TensorMask/train_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TridentNet/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TridentNet/configs/Base-TridentNet-Fast-C4.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TridentNet/configs/tridentnet_fast_R_101_C4_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TridentNet/configs/tridentnet_fast_R_50_C4_1x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TridentNet/configs/tridentnet_fast_R_50_C4_3x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TridentNet/train_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TridentNet/tridentnet/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TridentNet/tridentnet/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TridentNet/tridentnet/trident_backbone.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TridentNet/tridentnet/trident_conv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TridentNet/tridentnet/trident_rcnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/projects/TridentNet/tridentnet/trident_rpn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/setup.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_anchor_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_box2box_transform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_boxes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_checkpoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_data_loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_data_transform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_fast_rcnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_instances.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_mask_ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_model_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_model_e2e.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_model_zoo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_nms_rotated.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_roi_align.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_roi_align_rotated.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_roi_heads.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_roi_pooler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_rotated_boxes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_rpn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_sampler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tests/test_visualizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tools/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tools/benchmark.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tools/caffe2_converter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tools/plain_train_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tools/train_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tools/visualize_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/detectron2/tools/visualize_json_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar" beforeDir="false" afterPath="$PROJECT_DIR$/libs/kvazaar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/.gitlab-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/.travis-install.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/CREDITS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/README_old.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/autogen.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/bin/placeholder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/build/C_Properties.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/build/Release_Optimizations.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/build/kvazaar_VS2015.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/build/kvazaar_cli/kvazaar_cli.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/build/kvazaar_cli/kvazaar_cli.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/build/kvazaar_lib/kvazaar_lib.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/build/kvazaar_lib/kvazaar_lib.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/build/kvazaar_tests/kvazaar_tests.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/build/kvazaar_tests/kvazaar_tests.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/build/placeholder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/build/yasm/vsyasm.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/build/yasm/vsyasm.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/build/yasm/vsyasm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/configure.ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/debug_params.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/doc/kvazaar.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/doc/kvazaar_module_hierarchy.graphmlz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/doc/kvazaar_module_hierarchy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/doc/syntax_elements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/docs.doxy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/greatest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/m4/ax_check_compile_flag.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/m4/ax_pthread.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/m4/pkg.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/bitstream.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/bitstream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/cabac.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/cabac.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/cfg.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/cfg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/checkpoint.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/checkpoint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/cli.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/cli.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/context.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/context.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/cu.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/cu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/encmain.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/encode_coding_tree.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/encode_coding_tree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/encoder.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/encoder_state-bitstream.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/encoder_state-bitstream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/encoder_state-ctors_dtors.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/encoder_state-ctors_dtors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/encoder_state-geometry.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/encoder_state-geometry.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/encoderstate.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/encoderstate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/extras/crypto.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/extras/crypto.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/extras/getopt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/extras/getopt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/extras/libmd5.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/extras/libmd5.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/extras/x86inc.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/filter.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/filter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/global.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/image.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/image.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/imagelist.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/imagelist.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/input_frame_buffer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/input_frame_buffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/inter.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/inter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/intra.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/intra.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/kvazaar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/kvazaar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/kvazaar.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/kvazaar_internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/kvz_math.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/nal.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/nal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/rate_control.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/rate_control.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/rdo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/rdo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/sao.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/sao.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/scalinglist.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/scalinglist.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/search.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/search.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/search_inter.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/search_inter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/search_intra.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/search_intra.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/altivec/picture-altivec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/altivec/picture-altivec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/avx2/avx2_common_functions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/avx2/dct-avx2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/avx2/dct-avx2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/avx2/encode_coding_tree-avx2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/avx2/encode_coding_tree-avx2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/avx2/intra-avx2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/avx2/intra-avx2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/avx2/ipol-avx2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/avx2/ipol-avx2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/avx2/picture-avx2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/avx2/picture-avx2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/avx2/quant-avx2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/avx2/quant-avx2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/avx2/reg_sad_pow2_widths-avx2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/avx2/sao-avx2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/avx2/sao-avx2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/dct-generic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/dct-generic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/encode_coding_tree-generic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/encode_coding_tree-generic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/intra-generic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/intra-generic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/ipol-generic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/ipol-generic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/nal-generic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/nal-generic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/picture-generic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/picture-generic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/quant-generic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/quant-generic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/sao-generic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/sao-generic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/generic/sao_shared_generics.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/missing-intel-intrinsics.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/optimized_sad_func_ptr_t.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/sse2/picture-sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/sse2/picture-sse2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/sse41/picture-sse41.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/sse41/picture-sse41.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/sse41/reg_sad_pow2_widths-sse41.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-dct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-dct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-encode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-encode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-intra.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-intra.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-ipol.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-ipol.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-nal.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-nal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-picture.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-picture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-quant.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-quant.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-sao.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/strategies-sao.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/x86_asm/picture-x86-asm-sad.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/x86_asm/picture-x86-asm-sad.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/x86_asm/picture-x86-asm-satd.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/x86_asm/picture-x86-asm-satd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/x86_asm/picture-x86-asm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/x86_asm/picture-x86-asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategies/x86_asm/x86inc.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategyselector.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/strategyselector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/tables.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/tables.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/threadqueue.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/threadqueue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/threads.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/threadwrapper/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/threadwrapper/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/threadwrapper/include/pthread.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/threadwrapper/include/semaphore.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/threadwrapper/src/pthread.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/threadwrapper/src/semaphore.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/transform.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/videoframe.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/videoframe.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/yuv_io.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/src/yuv_io.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/coeff_sum_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/dct_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/inter_recon_bipred_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/intra_sad_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/mv_cand_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/sad_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/sad_tests.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/satd_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/satd_tests.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/speed_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/test_external_symbols.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/test_gop.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/test_interlace.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/test_intra.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/test_invalid_input.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/test_mv_constraint.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/test_owf_wpp_tiles.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/test_rate_control.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/test_slices.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/test_smp.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/test_strategies.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/test_strategies.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/test_tools.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/test_weird_shapes.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/tests_main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tests/util.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tools/appveyor-build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tools/appveyor-install.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tools/generate_ref_pixel_tables.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tools/generate_tables.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tools/genmanpage.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tools/plot-threadqueue-log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tools/update_readme.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kvazaar/tools/version.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC" beforeDir="false" afterPath="$PROJECT_DIR$/libs/openHEVC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/Android.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/COPYING.LGPLv2.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/MyCMakeScripts/AddCompilerFlag.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/MyCMakeScripts/CheckCCompilerFlag.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/MyCMakeScripts/CheckCXXCompilerFlag.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/MyCMakeScripts/CheckMicCCompilerFlag.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/MyCMakeScripts/CheckMicCXXCompilerFlag.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/MyCMakeScripts/FindCRYPTOPP_FOUND.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/MyCMakeScripts/FindCSFML.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/MyCMakeScripts/FindSDL2.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/MyCMakeScripts/FindYasm.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/MyCMakeScripts/OptimizeForArchitecture.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/README_old.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/ffmpeg_w32/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/ffmpeg_w32/SDL.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/ffmpeg_w32/ffmpeg.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/ffmpeg_w32/hevc_ffmpeg_w32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/ffmpeg_w32/libLibOpenHevcWrapper.def" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/ffmpeg_w32/libLibOpenHevcWrapper.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/ffmpeg_w64/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/ffmpeg_w64/SDL.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/ffmpeg_w64/ffmpeg.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/ffmpeg_w64/ffplay.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/ffmpeg_w64/hevc_ffmpeg_w64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/ffmpeg_w64/libLibOpenHevcWrapper.def" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/ffmpeg_w64/libLibOpenHevcWrapper.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/libLibOpenHevcWrapper.def" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/libav_w32/SDL.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/libav_w32/hevc_libav_win32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/libav_w32/libLibOpenHevcWrapper.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/libav_w32/zlib1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/libav_w64/SDL.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/libav_w64/hevc_libav_win64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/libav_w64/libLibOpenHevcWrapper.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/libav_w64/zlib1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/shvc/ffmpeg_w64/SDL.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/shvc/ffmpeg_w64/ffmpeg.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/shvc/ffmpeg_w64/hevc_ffmpeg_w64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/shvc/ffmpeg_w64/libLibOpenHevcWrapper.def" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/bin/shvc/ffmpeg_w64/libLibOpenHevcWrapper.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/compat/msvcrt/snprintf.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/compat/msvcrt/snprintf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/compat/os2threads.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/compat/strtod.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/compat/va_copy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/compat/w32pthreads.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/gpac/modules/openhevc_dec/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/gpac/modules/openhevc_dec/openHevcWrapper.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/gpac/modules/openhevc_dec/openHevcWrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/gpac/modules/openhevc_dec/openhevc_dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/ac3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/ac3tab.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/ac3tab.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/allcodecs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/cabac.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/dsputil_arm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/dsputil_init_armv5te.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/fft_init_arm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/fft_neon.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/fft_vfp.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/hevcdsp_deblock_neon.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/hevcdsp_epel_neon.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/hevcdsp_idct_neon.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/hevcdsp_init_arm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/hevcdsp_qpel_neon.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/hpeldsp_arm.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/hpeldsp_arm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/hpeldsp_armv6.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/hpeldsp_init_arm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/hpeldsp_init_armv6.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/hpeldsp_init_neon.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/hpeldsp_neon.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/int_neon.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/jrevdct_arm.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/mathops.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/mdct_neon.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/mdct_vfp.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/neon.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/rdft_neon.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/simple_idct_arm.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/simple_idct_armv5te.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/simple_idct_armv6.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/simple_idct_neon.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/videodsp_arm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/videodsp_armv5te.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/videodsp_init_arm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/arm/videodsp_init_armv5te.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/audioconvert.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/avcodec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/avfft.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/avfft.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/avpacket.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/avpicture.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/bit_depth_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/bitstream.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/bitstream_filter.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/blockdsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/bswapdsp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/bswapdsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/bytestream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/cabac.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/cabac.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/cabac_functions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/cabac_tablegen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/cabac_tablegen.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/codec_desc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/copy_block.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/crypto.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/crypto.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/dct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/dct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/dct32.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/dct32_float.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/dct32_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/dirac.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/dirac.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/diracdsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/dsputil.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/faandct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/faanidct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/faanidct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/fft-internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/fft.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/fft_float.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/fft_init_table.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/fft_table.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/fft_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/flac.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/flac.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/flacdata.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/flacdata.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/frame_thread_encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/get_bits.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/golomb.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/golomb.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/h264chroma.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/h264qpel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hevc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hevc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hevc_cabac.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hevc_defs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hevc_filter.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hevc_mvs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hevc_parser.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hevc_ps.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hevc_refs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hevc_sei.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hevcdsp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hevcdsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hevcdsp_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hevcpred.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hevcpred.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hevcpred_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hpel_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hpeldsp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/hpeldsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/idctdsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/imgconvert.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/imgconvert.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/intrax8.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/intrax8dsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/jrevdct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/mathops.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/mathtables.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/mdct_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/me_cmp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/me_cmp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/mpeg12data.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/mpeg12data.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/mpeg4audio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/mpeg4audio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/mpegaudiodata.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/mpegaudiodata.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/mpegvideo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/old_codec_ids.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/options.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/options_table.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/parser.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/parser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/pixels.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/pthread.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/pthread_frame.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/pthread_internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/pthread_slice.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/put_bits.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/qpel_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/qpeldsp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/qpeldsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/ratecontrol.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/raw.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/raw.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/rawdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/rdft.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/rdft.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/rl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/rnd_avg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/simple_idct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/simple_idct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/simple_idct_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/synth_filter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/thread.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/tpel_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/vc1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/vc1dsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/videodsp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/videodsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/videodsp_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/vorbis_parser.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/vorbis_parser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/vorbis_parser_internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/cabac.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/constants.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/constants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/dct32.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/dct_init.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/deinterlace.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/fdct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/fft.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/fft.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/fft_init.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/fpel.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/fpel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/h264_qpel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/h264_qpel_10bit.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/h264_qpel_8bit.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/hevc_deblock.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/hevc_idct.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/hevc_idct_sse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/hevc_il_pred_sse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/hevc_intra_pred_sse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/hevc_mc.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/hevc_mc_sse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/hevc_sao_sse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/hevcdsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/hevcdsp_init.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/hevcpred.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/hevcpred_init.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/hpeldsp.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/hpeldsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/hpeldsp_init.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/hpeldsp_rnd_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/idct_mmx_xvid.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/idct_sse2_xvid.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/idct_xvid.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/idctdsp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/inline_asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/mathops.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/qpel.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/qpeldsp.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/qpeldsp_init.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/rnd_template.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/simple_idct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/simple_idct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/videodsp.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/x86/videodsp_init.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/xiph.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavcodec/xiph.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/allformats.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/audiointerleave.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/avformat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/avio.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/avio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/avio_internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/aviobuf.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/cutils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/dv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/file.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/flac_picture.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/flac_picture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/format.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/gopher.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/hevcdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/http.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/httpauth.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/id3v1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/id3v1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/id3v2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/id3v2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/isom.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/isom.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/matroska.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/matroska.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/matroskadec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/metadata.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/metadata.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/mov.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/mov_chan.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/mov_chan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/mpeg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/mpegts.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/mpegts.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/mux.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/oggdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/oggdec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/oggparsecelt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/oggparsedirac.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/oggparseflac.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/oggparseogm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/oggparseopus.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/oggparseskeleton.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/oggparsespeex.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/oggparsetheora.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/oggparsevorbis.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/oggparsevp8.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/options.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/options_table.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/os_support.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/os_support.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/qtpalette.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/rawdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/rawdec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/rdt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/replaygain.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/replaygain.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/riff.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/riff.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/riffdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/rmsipr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/rmsipr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/rtmp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/rtp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/rtpdec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/rtpenc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/rtpenc_chain.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/rtpenc_chain.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/rtpproto.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/rtspcodes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/seek.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/srtp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/url.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/vorbiscomment.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavformat/vorbiscomment.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/arm/asm.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/arm/bswap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/arm/cpu.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/arm/cpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/arm/intmath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/arm/intreadwrite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/arm/timer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/atomic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/atomic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/atomic_gcc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/atomic_win32.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/attributes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/avassert.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/avconfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/avstring.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/avstring.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/avutil.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/base64.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/base64.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/bprint.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/bprint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/bswap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/buffer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/buffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/buffer_internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/channel_layout.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/channel_layout.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/colorspace.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/cpu.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/cpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/cpu_internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/crc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/crc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/des.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/des.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/dict.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/dict.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/display.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/display.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/dynarray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/error.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/eval.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/eval.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/fifo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/file_open.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/frame.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/frame.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/imgutils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/imgutils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/intfloat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/intmath.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/intmath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/intreadwrite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/lfg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/libm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/log.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/log.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/log2_tab.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/lzo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/macros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/mathematics.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/mathematics.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/md5.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/md5.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/mem.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/mem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/old_pix_fmts.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/opt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/opt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/parseutils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/parseutils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/pixdesc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/pixdesc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/pixfmt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/random_seed.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/random_seed.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/rational.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/rational.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/rc4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/rc4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/replaygain.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/samplefmt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/samplefmt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/sha.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/sha.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/stereo3d.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/stereo3d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/thread.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/time.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/time.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/time_internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/timecode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/timecode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/timer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/timestamp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/utils.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/wchar_filename.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/x86/asm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/x86/bswap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/x86/cpu.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/x86/cpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/x86/cpuid.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/x86/emms.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/x86/emms.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/x86/intreadwrite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/x86/timer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/x86/x86inc.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/libavutil/x86/x86util.asm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/main_hm/SDL_framerate.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/main_hm/SDL_framerate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/main_hm/getopt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/main_hm/getopt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/main_hm/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/main_hm/sdl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/main_hm/sdl2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/platform/arm/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/platform/x86/config.asm.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/platform/x86/config.h.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/uninstall_target.cmake.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/openHEVC/version.h" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/group_tile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="61" column="87" selection-start-line="61" selection-start-column="80" selection-end-line="61" selection-end-column="87" />
+              <folding>
+                <element signature="e#225#243#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/server/frame_cache.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="e#229#274#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/load_config.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/core/group_tile.py" />
+        <option value="$PROJECT_DIR$/core/server/frame_cache.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/EdgeTileServer.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/other.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="801" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EdgeTileServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EdgeTileServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EdgeTileServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EdgeTileServer" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EdgeTileServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EdgeTileServer" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EdgeTileServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EdgeTileServer" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05429ca0-9c85-4d7c-80bc-2ff9fececb3b" name="Default Changelist" comment="" />
+      <created>1586588796127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586588796127</updated>
+      <workItem from="1586588798528" duration="844000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="844000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="801" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Remote Host" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/load_config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/group_tile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="61" column="87" selection-start-line="61" selection-start-column="80" selection-end-line="61" selection-end-column="87" />
+          <folding>
+            <element signature="e#225#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/server/frame_cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#229#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

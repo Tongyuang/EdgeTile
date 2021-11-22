@@ -1,0 +1,31 @@
+cmake_minimum_required(VERSION 3.2)
+
+project(EdgeTileCPP)
+
+set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR})
+set(CMAKE_SOURCE_DIR, ${PROJECT_SOURCE_DIR})
+
+set(CMAKE_INSTALL_INCLUDEDIR ${PROJECT_SOURCE_DIR}/include)
+set(CMAKE_INSTALL_BINDIR ${PROJECT_SOURCE_DIR}/bin)
+if(PLATFORM STREQUAL "OS64")
+    set(CMAKE_INSTALL_LIB_DIR ${PROJECT_SOURCE_DIR}/lib-ios)
+    set(CMAKE_INSTALL_LIBDIR ${PROJECT_SOURCE_DIR}/lib-ios)
+    
+else()
+    set(CMAKE_INSTALL_LIB_DIR ${PROJECT_SOURCE_DIR}/lib)
+    set(CMAKE_INSTALL_LIBDIR ${PROJECT_SOURCE_DIR}/lib)
+endif()
+
+set(EDGE_HEADERS_DIR ${PROJECT_SOURCE_DIR}/src/division)
+
+
+
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O0")
+
+set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -O0")
+
+include_directories(${CMAKE_INSTALL_INCLUDEDIR})
+include_directories(${EDGE_HEADERS_DIR})
+
+add_subdirectory(deps)
+add_subdirectory(src)

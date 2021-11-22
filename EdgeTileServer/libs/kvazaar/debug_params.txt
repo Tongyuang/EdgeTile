@@ -1,0 +1,1 @@
+--input-res 1280x720 --input C:\Users\wangx\test1.yuv --tiles 3x3 --tiles-encoding-priority 0,3,5 --slices tiles --mv-constraint frametilemargin --output out.hevc

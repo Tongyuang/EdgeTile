@@ -1,0 +1,77 @@
+server:
+  decoder:
+    port: 10050
+    nthreads: 0
+    img_path: "data/jpg"
+  socket:
+    ip_addr: '166.111.80.127'
+    port: 10051
+  cache:
+    img_path: "data/jpg" 
+  model:
+    select_model: "fake_detection"
+    pool_size: 4
+    YOLOv3:
+      model_def: "libs/YOLOv3/config/yolov3.cfg"
+      weights_path: "libs/YOLOv3/weights/yolov3.weights"
+      class_path: "libs/YOLOv3/data/coco.names"
+      img_size: 416
+      conf_thres: 0.6
+      nms_thres: 0.4
+    ultralytics_detection:
+      model_weight: 'data/models/yolov3-spp-ultralytics.pt'
+      cfg_file: 'libs/yolov3/cfg/yolov3-spp.cfg'
+      name_file: 'libs/yolov3/data/coco.names'
+      conf_thres: 0.2
+      iou_thres: 0.2
+      img_size: 1920
+    fake_detection:
+      latency: 60
+      video_width: 2560
+      video_height: 1440
+      anno: "data/drone/server_box_2k_120fps"
+    detectron_detection:
+      # cfg_file: "libs/detectron2/configs/COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml"
+      # model_weight: "data/models/model_final_68b088.pkl"
+      
+      cfg_file: "libs/detectron2/configs/COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml"
+      model_weight: "data/models/model_final_280758.pkl"
+      confidence_threshold: 0.5
+      
+
+client:
+  dataset:
+    anno: "data/drone/anno"
+  video_streamer:
+    video_path: "data/drone/video/uav0000137_00458_v.mp4"
+  encoder:
+  # mode ["LOCAL_FILE_MODE", "SERVER_MODE"]
+    encode_type: "HEVC"
+    mode: "SERVER_MODE"
+    hevc_folder: "data/hevc"
+    jpeg_folder: "data/jpg"
+    jpeg_quality: "60"
+    ip_addr: "166.111.80.127"
+    port: 10050
+    tile_split: "6x6"
+    nthreads: 8
+    quality: "40"
+  socket:
+    ip_addr: "166.111.80.127"
+    port: 10051
+  control:
+    do_evaluate: yes
+    max_size: 0
+    eval_dir: "data/evaluate"
+  player:
+    max_box: 6
+  tracker:
+    select_model: 'kcfcpp_tracker'
+    optical_flow:
+      track_feature: 20
+    opencv_tracker:
+      tracker: 'KCF'
+    kcfcpp_tracker:
+      is_parallel: true
+      update_policy: 'general'
+      insert_frame: 5

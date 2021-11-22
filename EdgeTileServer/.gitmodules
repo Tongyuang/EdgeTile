@@ -1,0 +1,15 @@
+[submodule "libs/kvazaar"]
+	path = libs/kvazaar
+	url = https://github.com/xu-wang11/kvazaar
+[submodule "libs/openHEVC"]
+	path = libs/openHEVC
+	url = https://github.com/xu-wang11/openHEVC
+[submodule "libs/opencv"]
+	path = libs/opencv
+	url = https://gitee.com/xu-wang11/opencv.git
+[submodule "libs/detectron2"]
+	path = libs/detectron2
+	url = https://github.com/facebookresearch/detectron2.git
+[submodule "libs/yolov3"]
+	path = libs/yolov3
+	url = https://github.com/ultralytics/yolov3.git
