@@ -8,4 +8,4 @@ EdgeTile 边端协同实时目标检测
 
 边缘系统：高算力服务器
 
-credit to : Xu Wang
+credit to : Xu Wang:https://github.com/aiot-vision/EdgeTileClient.git
